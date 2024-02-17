@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Abhyaz Internship Feedback Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Abhyaz Internship Feedback Form</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="internship-role">Internship Role:</label>
+                <input type="text" id="internship-role" name="internship-role" required>
+            </div>
+            <div class="form-group">
+                <label for="internship-duration">Duration of Internships:</label>
+                <input type="text" id="internship-duration" name="internship-duration" required>
+            </div>
+            <div class="form-group">
+                <label for="overall-experience">On a scale of 1-10, how would you rate your overall internship experience at Abhyaz?</label>
+                <input type="range" id="overall-experience" name="overall-experience" min="1" max="10" required>
+            </div>
+            <div class="form-group">
+                <label for="overall-experience-description">Please provide a brief description of your overall experience at Abhyaz (max. 200 words):</label>
+                <textarea id="overall-experience-description" name="overall-experience-description" rows="4" maxlength="200" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
